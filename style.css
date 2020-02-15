@@ -1,0 +1,282 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url('https://media.meteojob.com/theme/2.3/images/bg-clouds.png'),linear-gradient(to top,#6CC2EB,#1299D8);
+}
+header{
+    text-align: center;
+}
+header img{
+  width: 15%;
+}
+input[type=text]{
+  height: 30px;
+  padding: 5px;
+}
+
+ input[type=name]{
+   height: 30px;
+ }
+
+ input[type=password]{
+   height: 40px;
+   outline: none;
+   border: none;
+   width: 95%;
+   padding: 1px;
+ }
+
+fieldset{ 
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    width:  330px;
+    height: 140%;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.po{
+    display: flex;
+    margin: 0; 
+}
+input[tet=nom]{
+  width: 10px;
+}
+
+.prenom{
+    margin-top: 12px;
+    padding: 2px; 
+    margin-right: 1em;  
+}
+
+.nom{
+  margin-top: 12px;
+}
+
+p{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 5px;
+    padding-bottom: 0;
+    line-height: 20px;
+      
+  }
+
+  img{
+    width: 15px;
+    height: 20px;
+}
+ 
+.passe{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 10px;
+    padding: 5px;
+    padding-bottom: 0;
+    line-height: 0px;
+    border: 1px solid rgb(201, 199, 199);
+}
+
+.pse{
+  margin: 10px;
+}
+
+
+.poste{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    margin: 15px;
+    padding: 1px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    line-height: 20px;  
+}
+
+.souhait{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    margin: 15px;
+    padding: 1px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.contrat{
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+button {
+  margin-right: em;
+  padding: 0;
+  padding-left: 10px;
+  background-color: #F2F2F2;
+  text-align: center;
+  font-size: 0.9em;
+  color: #9392b1;
+  border: none;
+  height: 7vh;
+  width: 8vw;
+  margin-bottom: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+button:hover {
+  background-color: #0F7EC5;
+  color: white;
+  transition: 1s;
+}
+
+.styled1 {
+    border: 0;
+    width: 8vw;
+    padding: 15px;
+    padding-left: 0;
+    margin: 5px;
+    font-size: 0.9rem;
+    background-color: #1e90ff;
+    color: #fff;
+    line-height: 12px;
+}
+.styled7 { 
+    margin: 15px;
+    margin-left: 200px;
+    margin-bottom: 1em;
+    border: 0; 
+    line-height: 2.5;
+    padding: 2px 25px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #1e90ff;
+  }
+  .container{
+    display: flex;
+  }
+
+/* button oui non*/
+
+.switch {
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 30px;
+	padding: 3px;
+	margin: 0 10px 10px 0;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+	border-radius: 1px;
+	box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+	
+}
+
+.switch-input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	box-sizing:content-box;
+}
+
+.switch-label {
+	position: relative;
+	display: block;
+	height: inherit;
+	font-size: 10px;
+	text-transform: uppercase;
+	background: #92999c;
+	border-radius: inherit;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+	box-sizing:content-box;
+}
+
+.switch-label:before, .switch-label:after {
+	position: absolute;
+	top: 50%;
+	margin-top: -.5em;
+	line-height: 1;
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
+  box-sizing:content-box;
+}
+
+.switch-label:before {
+	content: attr(data-non);
+	right: 11px;
+  color: #fff;
+  font-size: 15px;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.switch-label:after {
+	content: attr(data-oui);
+	left: 11px;
+  color: #fff;
+  font-size: 15px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+}
+
+.switch-input:checked ~ .switch-label {
+	background: rgb(209, 206, 197);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.switch-input:checked ~ .switch-label:before {
+	opacity: 0;
+}
+
+.switch-input:checked ~ .switch-label:after {
+	opacity: 1;
+}
+
+.switch-handle {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 43px;
+	height: 28px;
+	background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+	border-radius: 1%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.switch-handle:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -6px;
+	width: 20px;
+	height: 12px;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+	border-radius: 6px;
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+}
+
+.switch-input:checked ~ .switch-handle {
+	left: 74px;
+	box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+

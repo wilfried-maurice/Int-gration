@@ -1,0 +1,90 @@
+
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reprise du Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <main>
+       <!--header-->
+      <header>              
+        <img src="https://media.meteojob.com/theme/2.3/images/logo-white.png?201802221640&f23d2ac508759791af3dee5079074976acb27b71" alt="logo de meteo job">
+        <p>Créer votre profil meteojob</p>
+      </header>
+      <!--fin header-->
+
+      <fieldset>
+        <div class="tout">
+      <div class="po">
+        <div class="prenom">
+        <label>Prénom</label>
+        <input type="text" name="prénom" tabindex="2" placeholder="Votre prenom" size="30" maxlength="10"></div>
+      <div class="nom">
+        <label>Nom</label>
+        <input type="text" name="Nom" tabindex="1" required  placeholder="Votre nom" size="30" maxlength="10"/></div>
+      </div>
+        
+      <div class="mail">
+        <label>Adresse e-mail</label> 
+        <input type="text" name="email" placeholder="Ex : toto@gmail.com" size="30" maxlength="10">
+      </div>
+
+      <label class="pse">Mot de passe</label>
+        <div class="passe">    
+        <input id="password" type="password" class="form-control" name="password" placeholder="Choisissez votre mot de passe" required minlength="4" maxlength="10"/>
+        <img src="oeil.png" alt="">
+        </div>
+      </div>
+
+      <div class="poste">
+        <label for="pass">Postes recherchés </label>
+        <input type="text" name="pass" value="" placeholder="Ex : chef de projet, cuisinier" size="35" maxlength="10"/>
+      </div>
+
+      <div class="souhait">
+        <label for="pass">Ou souhaitez-vous travailler?</label>
+        <input type="text" name="pass" value="" placeholder="EX : Essenne, Nantes, Bretagne" size="35" maxlength="10">
+      </div>
+      </div>
+
+      <section> 
+        <div class="contrat">
+          <div>Types de contrats recherchés</div>
+        </div><br>
+      <div class="bton">
+        <div>
+          <button class="styled1"type="button">CDD</button>
+          <button class="styled2"type="button">CDI</button>
+          <button class="styled3"type="button">Indépendant/ Franchisé</button>
+          <button class="styled33"type="button">Interim</button></div>
+        <div>
+          <button class="styled4"type="button">Stage</button>
+          <button class="styled5"type="button">Alternace/ Apprentissage</button>   
+          <button class="styled">+ de types de contrat</button></div>
+        </section>
+        </div>
+
+        <section>
+        <div class="container">
+        <div> 
+        <label for="accept">J'accepte les <a class="link-subtle" target="_blank" href="/conditions.mj">
+          conditions générales</a> pour créer mon compte, 
+          bénéficier des services de matching et postuler aux offres :</label><label class="switch"></label></div>
+        <div>
+        <label class="switch">
+        <input class="switch-input" type="checkbox" />
+          <span class="switch-label" data-oui="Oui" data-non="Non"></span> 
+          <span class="switch-handle"></span> 
+        </label></div><br>
+        </div> 
+        <button class="favorite styled7"type="button"> Continuer</button>  
+      </section>
+    </form>
+   </fieldset>
+   </main>
+  </body>
+</html>
